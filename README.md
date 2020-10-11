@@ -22,3 +22,18 @@
 * python virtualenv
 * django==3.1.2
 * bootstrap 3
+
+# Technologies used
+
+* Python 3.6
+* HTML for the structure
+* Bootstrap 3 for the design
+* JavaScript
+* Heroku for the deployment
+* Postgresql for the database
+
+# Support and contact details
+* Email:bnilmar54@gmail.com 
+
+# License
+* MIT Copyright (c) 2020 Dan Bradley Otieno
