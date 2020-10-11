@@ -17,7 +17,7 @@
 # Set Up and Installations
 
 * Ubuntu Software
-* Python3.6
+* Python3.7
 * Postgres
 * python virtualenv
 * django==3.1.2
@@ -25,7 +25,7 @@
 
 # Technologies used
 
-* Python 3.6
+* Python3.7
 * HTML for the structure
 * Bootstrap 3 for the design
 * JavaScript
