@@ -48,31 +48,31 @@ class Image(models.Model):
     def save_image(self):
         self.save()
 
-    # @classmethod
-    # def get_all(cls):
-    #     images = cls.objects.all()
-    #     return images
+    @classmethod
+    def get_all(cls):
+        images = cls.objects.all()
+        return images
 
-#     @classmethod
-#     def search_by_category(cls,search_term):
-#         image = cls.objects.filter(category__category__contains=search_term)
-#         return image
+    @classmethod
+    def search_by_category(cls,search_term):
+        image = cls.objects.filter(category__category__contains=search_term)
+        return image
 
-#     @classmethod
-#     def update(cls,id,name):
-#         image=Image.objects.filter(id=id)
-#         image.update(name=name)
-#         return image
+    @classmethod
+    def update(cls,id,name):
+        image=Image.objects.filter(id=id)
+        image.update(name=name)
+        return image
 
-#     def delete_image(self):
-#         self.delete()
+    def delete_image(self):
+        self.delete()
 
-#     @classmethod 
-#     def get_image_by_id(cls,id):
-#         image = Image.objects.get(id=id)
-#         return image
+    @classmethod 
+    def get_image_by_id(cls,id):
+        image = Image.objects.get(id=id)
+        return image
 
-#     @classmethod
-#     def filter_location(cls,fil):
-#         loc_image=Image.objects.filter(location__country__icointain=fil)
-#         return loc_image
+    @classmethod
+    def filter_location(cls,fil):
+        loc_image=Image.objects.filter(location__country__icointain=fil)
+        return loc_image
