@@ -25,6 +25,8 @@ def search_results(request):
 def detail(request,image_id):
         image = Image.objects.get(id = image_id)
         return render(request,"all_images/details.html", {"image":image})
+
+        
 def location(request,country):
     locat= Location.objects.get(location=country)
     return render(request,"all_images/location.html",{"locat":locat})    
