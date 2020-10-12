@@ -1,13 +1,7 @@
 body{
-    background-color:navy;
+    background-color:rgb(224, 230, 211);
 }
 
 h1{
     color: sienna;
-}
-.container{
-    background-color: rgb(200, 228, 199);
-}
-navbar{
-    background-color: navy;
 }
