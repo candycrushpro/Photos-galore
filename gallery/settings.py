@@ -65,7 +65,7 @@ STATICFILES_DIRS = (
 SECRET_KEY = 'p7r5o%j+ok)&+(#%b_#3-o#z9o3ls&4n&f@6g*uxiw=*tflwd1'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
