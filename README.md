@@ -1,8 +1,8 @@
 # PHOTO GALORE
-* this is my personal gallery application
+* This is my personal gallery application
 
 # INTRODUCTION
-* gallery is a photo web application that shows different image category and displays all images selected by me.
+* Gallery is a photo web application that shows different image category and displays all images selected by me.
 
 # Description
 * Gallery is a website application that shows different image. Users have to see photos and search the images based on the category and also user can copy the link of the images by right clicking on the prefered image.Admin uploads images,delete and update the images, is for the admin that have all right for the images seen by the users as he/she can delete/update and add pictures.
