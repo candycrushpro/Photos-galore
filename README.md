@@ -7,7 +7,7 @@
 # Description
 * Gallery is a website application that shows different image. Users have to see photos and search the images based on the category and also user can copy the link of the images by right clicking on the prefered image.Admin uploads images,delete and update the images, is for the admin that have all right for the images seen by the users as he/she can delete/update and add pictures.
 
-![](picture/)
+![](picture/https://github.com/candycrushpro/Photos-galore/blob/main/pictures/Screenshot%20from%202020-10-12%2010-10-44.png)
 
 # Specifications
 * user can view different images and she/he hover the prefered image,it automatically be zoomed,and when he/she click on preferded image it automatically shows the name,description,the location of the image with the zoomed images.
